@@ -1,0 +1,70 @@
+body
+{
+	background-color: rgb(74,81,85);
+	font-size: 9pt;
+	font-family:Verdana;
+	line-height:12pt;
+	color: #99CC00;
+}
+h2
+{
+	color: #99CC00;
+}
+textarea, input {
+        border-radius: 5px 5px 5px 5px;
+}
+input {
+    height: 20px;width: 70px;text-align: center;
+}
+.submit-button
+ {
+    background: #57A02C;
+    border:solid 1px #57A02C;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    color:#FFF;
+    display: inline-block;
+    cursor:pointer;
+    font-size:13px;
+    padding:3px 8px;
+    height: 30px;width: 120px;
+}
+.submit-button:hover {
+    background:#82D051;border:solid 1px #86CC50;
+    height: 30px;width: 120px;	
+}
+.business{
+    font-weight:bold;
+	color:yellow;
+}
+.premier{
+    font-weight:bold;
+	color:#00FF00;
+}
+.verified{
+    font-weight:bold;
+	color:#006DB0;
+}
+.fieldset{
+    border: 1px dashed #cccccc;
+    margin-top: 20px;
+}
+.pplive{
+    border: 1px dashed #cccccc;
+    color:yellow;
+    font-weight:bold;
+}
+.ppdie{
+    border: 1px dashed #cccccc;
+    color:red;
+    font-weight:bold;
+}
+#result{
+    display:none;
+}
